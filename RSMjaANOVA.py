@@ -225,7 +225,6 @@ def main():
     data = pd.read_csv('toisenasteenanova.csv')
     y = data[['Aachen']].values
     X2 = data[['x1', 'x2', 'x3', 'x1x2', 'x1x3', 'x2x3', 'x1x2x3', 'x1x1', 'x2x2', 'x3x3', 'x1x1x2', 'x1x1x3', 'x2x2x1', 'x2x2x3', 'x3x3x1', 'x3x3x2', 'x1x1x2x2', 'x1x1x3x3', 'x2x2x3x3', 'x1x1x2x2x3x3']].values
-    #data = pd.read_csv('C:\\Users\\localadmin\\OneDrive - TUNI.fi\\Työpöytä\\Projektit 2019\\ÄVE\\Tutkimus\\Python\\mittausdata\\artsu\\tehodata.csv')
     #y = data[['P']].values
     #X2 = data[['x1', 'x2', 'x3', 'x1x2', 'x1x3', 'x2x3', 'x1x2x3', 'x1x1', 'x2x2', 'x3x3']].values
     # Alla oleva on tärkeä rivi
